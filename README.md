@@ -2,7 +2,10 @@
 
 NGINX proxy app for the recipe app API. The purpose of the proxy server is to handle the requests for the static files and redirect everything else to the Django application.
 
-### Architecture
+
+![Alt text](./nginx-arch.png?raw=true "Title")
+
+### Configuration
 
 'default.conf.tpl' contains the configuration of the NGINX server and defines how to handle the requests to /static and the rest.
 
